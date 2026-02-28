@@ -1,0 +1,56 @@
+{
+  "categories": [
+    {
+      "name": "Drinks",
+      "description": "Handcrafted beverages made with care",
+      "items": [
+        { "name": "Drip Coffee", "price": 2.50, "description": "Freshly brewed house blend" },
+        { "name": "Espresso", "price": 3.00, "description": "Rich double shot of espresso" },
+        { "name": "Americano", "price": 3.50, "description": "Espresso with hot water" },
+        { "name": "Cappuccino", "price": 4.50, "description": "Espresso with steamed milk and foam" },
+        { "name": "Latte", "price": 5.00, "description": "Espresso with silky steamed milk" },
+        { "name": "Vanilla Latte", "price": 5.50, "description": "Latte with house-made vanilla syrup" },
+        { "name": "Caramel Macchiato", "price": 5.50, "description": "Vanilla latte with caramel drizzle" },
+        { "name": "Mocha", "price": 5.50, "description": "Espresso, chocolate, and steamed milk" },
+        { "name": "Chai Latte", "price": 5.00, "description": "Spiced chai tea with steamed milk" },
+        { "name": "Matcha Latte", "price": 5.50, "description": "Ceremonial grade matcha with milk" },
+        { "name": "Hot Chocolate", "price": 4.00, "description": "Rich chocolate with steamed milk" },
+        { "name": "Iced Coffee", "price": 3.50, "description": "Cold brewed and served over ice" },
+        { "name": "Iced Latte", "price": 5.50, "description": "Espresso and cold milk over ice" },
+        { "name": "Fresh Lemonade", "price": 3.50, "description": "Squeezed daily, sweet or tart" },
+        { "name": "Fruit Smoothie", "price": 6.00, "description": "Seasonal fruits blended fresh" }
+      ]
+    },
+    {
+      "name": "Food",
+      "description": "Fresh bites and hearty meals",
+      "items": [
+        { "name": "Avocado Toast", "price": 8.50, "description": "Sourdough, smashed avocado, everything seasoning" },
+        { "name": "Breakfast Burrito", "price": 9.00, "description": "Eggs, cheese, peppers, and salsa" },
+        { "name": "Bagel & Cream Cheese", "price": 4.50, "description": "Fresh bagel with cream cheese spread" },
+        { "name": "Turkey Club Sandwich", "price": 10.00, "description": "Turkey, bacon, lettuce, tomato on sourdough" },
+        { "name": "Grilled Cheese", "price": 7.50, "description": "Cheddar and gruyère on thick-cut bread" },
+        { "name": "Caesar Salad", "price": 9.00, "description": "Romaine, parmesan, croutons, house dressing" },
+        { "name": "Soup of the Day", "price": 5.50, "description": "Ask about today's homemade selection" },
+        { "name": "Blueberry Muffin", "price": 3.50, "description": "Baked fresh every morning" },
+        { "name": "Croissant", "price": 3.50, "description": "Buttery, flaky, and golden" },
+        { "name": "Chocolate Chip Cookie", "price": 2.50, "description": "Warm and gooey, made in-house" },
+        { "name": "Banana Bread", "price": 3.50, "description": "Moist and topped with walnuts" },
+        { "name": "Quiche", "price": 7.00, "description": "Spinach and feta, served warm" }
+      ]
+    },
+    {
+      "name": "Ice Cream",
+      "description": "Scoops of happiness",
+      "items": [
+        { "name": "Single Scoop", "price": 3.50, "description": "One scoop of your choice" },
+        { "name": "Double Scoop", "price": 5.50, "description": "Two scoops, mix and match" },
+        { "name": "Waffle Cone", "price": 1.50, "description": "Add a fresh waffle cone" },
+        { "name": "Sundae", "price": 7.00, "description": "Two scoops with toppings and whipped cream" },
+        { "name": "Milkshake", "price": 6.50, "description": "Thick and creamy, any flavor" },
+        { "name": "Affogato", "price": 6.00, "description": "Vanilla gelato drowned in espresso" },
+        { "name": "Root Beer Float", "price": 5.50, "description": "Classic root beer with vanilla ice cream" }
+      ]
+    }
+  ]
+}

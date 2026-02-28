@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --color-coffee-50: #fdf8f0;
+  --color-coffee-100: #f5e6d3;
+  --color-coffee-200: #e8cba5;
+  --color-coffee-300: #d4a574;
+  --color-coffee-400: #c4884d;
+  --color-coffee-500: #a0673a;
+  --color-coffee-600: #7a4e2d;
+  --color-coffee-700: #5c3a22;
+  --color-coffee-800: #3d2717;
+  --color-coffee-900: #2a1b10;
+
+  --color-cream: #faf6f1;
+  --color-espresso: #2c1810;
+  --color-caramel: #d4904e;
+  --color-mint: #a8d5ba;
+  --color-berry: #c76b8a;
+
+  --font-heading: "Playfair Display", serif;
+  --font-body: "Inter", sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-espresso);
+  background-color: var(--color-cream);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}

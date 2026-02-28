@@ -1,0 +1,35 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+  functions = "netlify/functions"
+
+# API redirects — method-based routing to separate functions
+[[redirects]]
+  from = "/api/events"
+  to = "/.netlify/functions/events-get"
+  status = 200
+  conditions = { Method = ["GET"] }
+
+[[redirects]]
+  from = "/api/events"
+  to = "/.netlify/functions/events-post"
+  status = 200
+  conditions = { Method = ["POST"] }
+
+[[redirects]]
+  from = "/api/events"
+  to = "/.netlify/functions/events-put"
+  status = 200
+  conditions = { Method = ["PUT"] }
+
+[[redirects]]
+  from = "/api/events"
+  to = "/.netlify/functions/events-delete"
+  status = 200
+  conditions = { Method = ["DELETE"] }
+
+# SPA fallback — must be last
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
