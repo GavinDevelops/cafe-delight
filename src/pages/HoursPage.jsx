@@ -37,7 +37,7 @@ export default function HoursPage() {
                   )}
                 </td>
                 <td className="py-3 text-coffee-600 text-right">
-                  {h.open} – {h.close}
+                  {h.close ? `${h.open} – ${h.close}` : h.open}
                 </td>
               </tr>
             ))}

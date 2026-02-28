@@ -25,7 +25,7 @@ export default function Footer() {
               {siteInfo.hours.map((h) => (
                 <li key={h.day} className="flex justify-between">
                   <span className="text-coffee-500">{h.day}</span>
-                  <span>{h.open} – {h.close}</span>
+                  <span>{h.close ? `${h.open} – ${h.close}` : h.open}</span>
                 </li>
               ))}
             </ul>
