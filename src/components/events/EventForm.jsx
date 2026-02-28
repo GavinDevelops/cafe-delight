@@ -35,7 +35,7 @@ export default function EventForm({ event, onSubmit, onCancel }) {
           value={title}
           onChange={(e) => setTitle(e.target.value)}
           required
-          className="w-full px-4 py-2.5 rounded-lg border border-coffee-200 focus:border-coffee-400 focus:ring-2 focus:ring-coffee-200 outline-none transition-colors bg-white"
+          className="w-full px-4 py-2.5 rounded-lg border border-coffee-200 focus:border-coffee-400 focus:ring-2 focus:ring-coffee-200 outline-none transition-colors bg-coffee-800"
         />
       </div>
 
@@ -47,7 +47,7 @@ export default function EventForm({ event, onSubmit, onCancel }) {
           value={date}
           onChange={(e) => setDate(e.target.value)}
           required
-          className="w-full px-4 py-2.5 rounded-lg border border-coffee-200 focus:border-coffee-400 focus:ring-2 focus:ring-coffee-200 outline-none transition-colors bg-white"
+          className="w-full px-4 py-2.5 rounded-lg border border-coffee-200 focus:border-coffee-400 focus:ring-2 focus:ring-coffee-200 outline-none transition-colors bg-coffee-800"
         />
       </div>
 
@@ -58,7 +58,7 @@ export default function EventForm({ event, onSubmit, onCancel }) {
           value={description}
           onChange={(e) => setDescription(e.target.value)}
           rows={3}
-          className="w-full px-4 py-2.5 rounded-lg border border-coffee-200 focus:border-coffee-400 focus:ring-2 focus:ring-coffee-200 outline-none transition-colors bg-white resize-y"
+          className="w-full px-4 py-2.5 rounded-lg border border-coffee-200 focus:border-coffee-400 focus:ring-2 focus:ring-coffee-200 outline-none transition-colors bg-coffee-800 resize-y"
         />
       </div>
 

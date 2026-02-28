@@ -22,7 +22,7 @@ export default function MenuPage() {
             onClick={() => setActiveTab(cat.name)}
             className={`px-5 py-2.5 rounded-lg font-medium text-sm transition-colors ${
               activeTab === cat.name
-                ? 'bg-coffee-600 text-white'
+                ? 'bg-caramel text-coffee-900'
                 : 'bg-coffee-100 text-coffee-600 hover:bg-coffee-200'
             }`}
           >

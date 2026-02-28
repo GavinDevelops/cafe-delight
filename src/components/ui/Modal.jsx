@@ -25,7 +25,7 @@ export default function Modal({ isOpen, onClose, title, children }) {
       aria-modal="true"
       aria-label={title}
     >
-      <div className="bg-white rounded-xl shadow-xl w-full max-w-lg max-h-[90vh] overflow-y-auto">
+      <div className="bg-coffee-800 rounded-xl shadow-xl w-full max-w-lg max-h-[90vh] overflow-y-auto">
         <div className="flex items-center justify-between p-6 border-b border-coffee-100">
           <h2 className="text-xl font-bold text-espresso">{title}</h2>
           <button onClick={onClose} className="text-coffee-400 hover:text-coffee-600 text-2xl leading-none" aria-label="Close">

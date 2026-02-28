@@ -82,7 +82,7 @@ export default function AdminPage() {
                 <div className="flex items-center gap-2 mb-1">
                   <h3 className="font-semibold text-espresso">{event.title}</h3>
                   <span className={`text-xs px-2 py-0.5 rounded-full font-medium ${
-                    status === 'upcoming' ? 'bg-mint/30 text-green-800' : 'bg-coffee-100 text-coffee-500'
+                    status === 'upcoming' ? 'bg-mint/30 text-mint' : 'bg-coffee-100 text-coffee-500'
                   }`}>
                     {status}
                   </span>

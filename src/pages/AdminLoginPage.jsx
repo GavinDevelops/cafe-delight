@@ -47,7 +47,7 @@ export default function AdminLoginPage() {
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               required
-              className="w-full px-4 py-2.5 rounded-lg border border-coffee-200 focus:border-coffee-400 focus:ring-2 focus:ring-coffee-200 outline-none transition-colors bg-white"
+              className="w-full px-4 py-2.5 rounded-lg border border-coffee-200 focus:border-coffee-400 focus:ring-2 focus:ring-coffee-200 outline-none transition-colors bg-coffee-800"
             />
           </div>
           {error && <p className="text-berry text-sm">{error}</p>}

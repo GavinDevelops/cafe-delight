@@ -15,7 +15,7 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false)
 
   return (
-    <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-sm border-b border-coffee-100 shadow-sm">
+    <header className="sticky top-0 z-40 bg-coffee-900/90 backdrop-blur-sm border-b border-coffee-100 shadow-sm">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Main navigation">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="font-heading text-2xl font-bold text-espresso hover:text-coffee-600 transition-colors">

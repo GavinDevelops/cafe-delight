@@ -10,7 +10,7 @@ export default function EventCard({ event, compact = false }) {
       <div className="flex items-start justify-between gap-3 mb-2">
         <span className={`text-xs font-semibold px-2.5 py-1 rounded-full ${
           isUpcoming
-            ? 'bg-mint/30 text-green-800'
+            ? 'bg-mint/30 text-mint'
             : 'bg-coffee-100 text-coffee-500'
         }`}>
           {isUpcoming ? 'Upcoming' : 'Past'}
