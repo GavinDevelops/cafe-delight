@@ -11,7 +11,7 @@ export default function AboutPage() {
         <div className="space-y-6 text-coffee-600 leading-relaxed">
           <p className="animate-fade-up delay-1">
             Cafe Delight was born from a simple idea: that a great cup of coffee can bring a community
-            together. Nestled in the heart of downtown Dover, Delaware, we've been serving our neighbors
+            together. Nestled in the heart of Townsend, Delaware, we've been serving our neighbors
             handcrafted beverages and fresh food since we first opened our doors.
           </p>
           <p className="animate-fade-up delay-2">

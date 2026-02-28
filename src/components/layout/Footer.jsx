@@ -14,7 +14,7 @@ export default function Footer() {
               Cafe Delight
             </Link>
             <p className="mt-3 text-coffee-500 text-sm leading-relaxed">
-              Your cozy neighborhood coffee shop in downtown Dover, serving handcrafted drinks, fresh food, and delicious ice cream.
+              Your cozy neighborhood coffee shop in Townsend, serving handcrafted drinks, fresh food, and delicious ice cream.
             </p>
           </div>
 

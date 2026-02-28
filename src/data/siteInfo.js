@@ -5,11 +5,11 @@ export const siteInfo = {
   email: "hello@cafedelightde.com",
   address: {
     street: "15 Loockerman St",
-    city: "Dover",
+    city: "Townsend",
     state: "DE",
-    zip: "19901",
-    full: "15 Loockerman St, Dover, DE 19901",
-    mapsQuery: "15+Loockerman+St,+Dover,+DE+19901",
+    zip: "19734",
+    full: "15 Loockerman St, Townsend, DE 19734",
+    mapsQuery: "15+Loockerman+St,+Townsend,+DE+19734",
   },
   hours: [
     { day: "Monday", open: "7:00 AM", close: "6:00 PM" },

@@ -13,14 +13,14 @@ export default function HeroSection() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32">
         <div className="max-w-2xl">
           <p className="text-caramel font-medium tracking-widest uppercase text-sm mb-4 animate-fade-up">
-            Downtown Dover, DE
+            Townsend, DE
           </p>
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] mb-6 animate-fade-up delay-1">
             Your Neighborhood<br />
             <span className="text-caramel">Coffee Shop</span>
           </h1>
           <p className="text-lg md:text-xl text-coffee-500 mb-10 leading-relaxed max-w-lg animate-fade-up delay-2">
-            Handcrafted drinks, fresh food, and a warm atmosphere in the heart of downtown Dover.
+            Handcrafted drinks, fresh food, and a warm atmosphere in the heart of Townsend.
             Come for the coffee, stay for the community.
           </p>
           <div className="flex flex-wrap gap-4 animate-fade-up delay-3">

@@ -7,7 +7,7 @@ export default function LocationPage() {
   useEffect(() => { document.title = 'Location — Cafe Delight' }, [])
   return (
     <section className="py-16 px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
-      <SectionHeading title="Find Us" subtitle="Located in the heart of downtown Dover" />
+      <SectionHeading title="Find Us" subtitle="Located in the heart of Townsend" />
 
       <div className="grid md:grid-cols-2 gap-8">
         <Card>
